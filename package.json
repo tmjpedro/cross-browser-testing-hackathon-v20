@@ -1,0 +1,16 @@
+{
+  "name": "cross-browser-testing-hackathon-v20",
+  "version": "1.0.0",
+  "description": "Applitools Cross Browser Testing Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test:v1": "URL=https://demo.applitools.com/gridHackathonV1.html testcafe chrome:headless ./ModernTestsV1/*",
+    "test:v2": "URL=https://demo.applitools.com/gridHackathonV2.html testcafe chrome:headless ./ModernTestsV2/*"
+  },
+  "author": "tmjpedro",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-testcafe": "latest",
+    "testcafe": "latest"
+  }
+}
